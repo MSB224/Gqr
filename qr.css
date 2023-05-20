@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+
+}
+input{
+    width: 308;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 20px;
+   
+   
+}
+section{
+    background-color: #fff;
+    width: 350;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.886);
+}
+h1{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.qr_code{
+    padding: 25px;
+    width: fit-content;
+    /* background-color: red; */
+     /* display: none;  */
+}
+.btn_save_me{
+    justify-content: center;
+    display: none;
+    
+}
